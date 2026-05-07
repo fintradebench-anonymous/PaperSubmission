@@ -70,7 +70,9 @@ This directory contains the raw, dense multimodal corpus that the RAG pipeline (
   * `Volume`: Total shares traded during the day.
 
 ===============================================================
+
 DATA PROVENANCE AND LICENSING
+
 ===============================================================
 
   SEC Filings:   Public domain. Downloaded from SEC EDGAR
@@ -83,7 +85,9 @@ DATA PROVENANCE AND LICENSING
                  commercial purposes.
 
 ===============================================================
+
 COVERAGE NOTE
+
 ===============================================================
 
 The NASDAQ-100 universe covers 101 companies over the 2015–2025
@@ -95,7 +99,9 @@ Signal computation scripts are also provided to reproduce the signals/ files fro
 raw OHLCV and filing data.
 
 ===============================================================
+
 CONTACT
+
 ===============================================================
 Will be made available after anonymous review process is completed.
 
