@@ -42,7 +42,7 @@ Category breakdown:
 ---
 
 ### 2. `Precomputed_Contexts/` (csv Files)
-This folder contains the combined, perfectly curated data used for the "Ideal RAG" (Level 7-9) case studies. 
+This folder contains the combined, perfectly curated data used for the "Ideal RAG" (Level 7-9) case studies for subset of companies.  
 * **Naming Convention:** `[TICKER]-daily_with_fundamentals.csv` (e.g., `AAPL-daily_with_fundamentals.csv`)
 * **Structure:** Each file contains the pre-extracted company fundamentals (prefix F_) like Return on Equity, Debt/Assets) and the calculated trading signals (no prefix) like 20-day EMA, RSI, etc. relevant to the specific timeframe of the query. 
 * **Purpose:** Used to bypass the retrieval bottleneck to test if the LLM possesses the latent reasoning capacity to synthesize the data when provided perfectly.
