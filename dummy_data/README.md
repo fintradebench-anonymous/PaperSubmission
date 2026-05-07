@@ -10,7 +10,7 @@ The complete dataset (1400 questions) and full corpus will be made anonymously a
 FinTradeBench_Dataset_Sample/
 │
 ├── README.md                              <- This documentation file
-├── golden_subset.csv                      <- The seed questions from benchmark (150 Q&A pairs)
+├── golden_subset_cleaned.csv                      <- The seed questions from benchmark (150 Q&A pairs)
 │
 ├── Precomputed_Contexts/                  <- Data for the "Ideal RAG" Case Studies
 │   ├── AAPL-daily_with_fundamentals.csv
@@ -26,7 +26,7 @@ FinTradeBench_Dataset_Sample/
 ```
 ## File Descriptions & Data Schema
 
-### 1. `golden_subset.csv`
+### 1. ` golden_subset_cleaned.csv`
 This file contains the core benchmark evaluation data. It contains the seed 150 queries used to scale the benchmark covering Fundamental (F), Trading (T), and Hybrid (FT) reasoning types.
 Category breakdown:
   Fundamentals (F):    50 questions
