@@ -68,4 +68,11 @@ These scripts grade the RAG outputs and generate the paper's quantitative figure
 9. **`evaluate_rag_pipeline.py`**: Uses Claude 4.5 Sonnet as a judge to evaluate the Standard RAG vs. No-RAG responses against the Golden Answers. It outputs scores for Factual Accuracy, Reasoning, and Modality Integration Bias.
 10. **`generate_paper_tables_and_plots.py`**: Aggregates the final evaluation CSVs, computes paired t-test significance, and outputs the LaTeX table snippets and PDF plots (Grouped Bar Charts & Relative Deltas) utilized in the Results section of the manuscript.
 
+---
 
+## 📊 Dataset Access
+
+Because the full FinTradeBench corpus is several extremely large in size, it is hosted externally on Harvard Dataverse.
+
+* **Full Dataset (Harvard Dataverse):** [Click here to access the anonymized dataset](https://dataverse.harvard.edu/previewurl.xhtml?token=7424f412-d56d-4a3e-9469-907c243444fb)
+* **Quick Testing:** A small `dummy_data/` folder is included directly in this repository so reviewers can quickly verify the code execution without downloading the full corpus.
