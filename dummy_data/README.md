@@ -37,7 +37,8 @@ Category breakdown:
 | :--- | :--- | :--- | :--- |
 | `question_id` | String | Unique identifier prefix denoting the reasoning category (F, T, or FT) followed by a number. | `FT1` |
 | `question` | String | The prompt presented to the LLM. | *"As of August 2025, is Apple a good buy given its valuation..."* |
-| `golden_response` | String | Comma-separated list of expert-defined metrics required to form a complete and correct rationale. | `Earnings/Price, Book/Price, RSI` |
+| `golden_indicators` | String | Comma-separated list of expert-defined metrics required to form a complete and correct rationale. | `Earnings/Price, Book/Price, RSI` |
+| `golden_response` | String | Response selected for our benchmark after the benchmark generation pipeline is completed|
 ---
 
 ### 2. `Precomputed_Contexts/` (Excel Files)
