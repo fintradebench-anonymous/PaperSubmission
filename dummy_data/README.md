@@ -23,7 +23,7 @@ FinTradeBench_Dataset_Sample/
     └── Stock_Price_History/               <- Structured market data (OHLCV)
         ├── AAPL-history.xlsx
         └── ...
-
+```
 ## File Descriptions & Data Schema
 
 ### 1. `subset_100_questions.csv`
@@ -38,9 +38,6 @@ Category breakdown:
 | `question_id` | String | Unique identifier prefix denoting the reasoning category (F, T, or FT) followed by a number. | `FT1` |
 | `question` | String | The prompt presented to the LLM. | *"As of August 2025, is Apple a good buy given its valuation..."* |
 | `golden_response` | String | Comma-separated list of expert-defined metrics required to form a complete and correct rationale. | `Earnings/Price, Book/Price, RSI` |
-| `model` | String | LLM model name used to generate the response | `gemini-3-pro-preview,grok-4-1-fast-reasoning,qwen3-235b-a22b-instruct-2507-maas` |
-| `final_score` | Integer | (If applicable) The human-expert graded score for the generated baseline response on a 1-5 Likert scale. | `4` |
-
 ---
 
 ### 2. `Precomputed_Contexts/` (Excel Files)
@@ -90,7 +87,7 @@ COVERAGE NOTE
 
 The NASDAQ-100 universe covers 101 companies over the 2015–2025
 window. Due to file size constraints, SEC filings are provided 
-for a representative subset of 7 companies only.
+for a representative subset of 1 company only.
 The full company set can be reconstructed using the EDGAR
 downloader script (download_sec_filings.py) in the software package. 
 Signal computation scripts are also provided to reproduce the signals/ files from
@@ -99,6 +96,6 @@ raw OHLCV and filing data.
 ===============================================================
 CONTACT
 ===============================================================
-fintradebench@gmail.com
+Will be made available after anonymous review process is completed.
 
 *Note: For the full dataset required to reproduce the paper's exact evaluation metrics, please refer to the anonymous dataset link provided in the main README.*
