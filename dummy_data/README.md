@@ -2,9 +2,9 @@
 
 This repository contains a representative sample of **FinTradeBench**, a novel benchmark designed to evaluate Large Language Models (LLMs) on complex financial reasoning tasks requiring both unstructured company fundamentals (SEC filings) and structured market trading signals.
 
-Due to conference submission file-size constraints (specifically the large volume of raw SEC HTML/TXT filings), this folder contains a **100-question representative subset** of the benchmark, along with sample corresponding precomputed contexts and raw source documents companies. 
+This folder contains a **100-question representative subset** of the benchmark, along with sample corresponding precomputed contexts and raw source documents companies. 
 
-The complete dataset (1400 questions) and full corpus will be made publicly available open-source upon paper acceptance.
+The complete dataset (1400 questions) and full corpus will be made anonymously available until review under NEURIPS and will be made open-source upon paper acceptance.
 
 ## Folder Structure
 
