@@ -33,6 +33,7 @@ All scripts are written in Python 3.10+. To install the required dependencies, r
     ├── evaluate_rag_pipeline.py               <- (Phase 4)
     ├── generate_paper_tables_and_plots.py     <- (Phase 4)
     │
+    ├── dummy_data                             <- Sample data to run the codes.
     ├── data/                                  <- (Empty placeholder for inputs)
     └── output/                                <- (Empty placeholder for outputs)
 
