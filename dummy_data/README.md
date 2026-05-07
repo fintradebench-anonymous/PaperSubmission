@@ -10,7 +10,7 @@ The complete dataset (1400 questions) and full corpus will be made anonymously a
 FinTradeBench_Dataset_Sample/
 │
 ├── README.md                              <- This documentation file
-├── golden_subset_cleaned.csv                      <- The seed questions from benchmark (150 Q&A pairs)
+├── FinTradeBench_Golden_Seed_150.csv      <- The seed questions from benchmark (150 Q&A pairs)
 │
 ├── Precomputed_Contexts/                  <- Data for the "Ideal RAG" Case Studies
 │   ├── AAPL-daily_with_fundamentals.csv
@@ -26,7 +26,7 @@ FinTradeBench_Dataset_Sample/
 ```
 ## File Descriptions & Data Schema
 
-### 1. ` golden_subset_cleaned.csv`
+### 1. `FinTradeBench_Golden_Seed_150.csv`
 This file contains the core benchmark evaluation data. It contains the seed 150 queries used to scale the benchmark covering Fundamental (F), Trading (T), and Hybrid (FT) reasoning types.
 Category breakdown:
   Fundamentals (F):    50 questions
@@ -38,7 +38,7 @@ Category breakdown:
 | `question_id` | String | Unique identifier prefix denoting the reasoning category (F, T, or FT) followed by a number. | `FT1` |
 | `question` | String | The prompt presented to the LLM. | *"As of August 2025, is Apple a good buy given its valuation..."* |
 | `golden_indicators` | String | Comma-separated list of expert-defined metrics required to form a complete and correct rationale. | `Earnings/Price, Book/Price, RSI` |
-| `golden_response` | String | Response selected for our benchmark after the benchmark generation pipeline is completed|
+| `response` | String | Response selected for our benchmark after the benchmark generation pipeline is completed|
 ---
 
 ### 2. `Precomputed_Contexts/` (csv Files)
