@@ -1,8 +1,6 @@
 # Dataset Supplementary Material: FinTradeBench (Anonymous Submission)
 
-This repository contains a representative sample of **FinTradeBench**, a novel benchmark designed to evaluate Large Language Models (LLMs) on complex financial reasoning tasks requiring both unstructured company fundamentals (SEC filings) and structured market trading signals.
-
-This folder contains a **100-question representative subset** of the benchmark, along with sample corresponding precomputed contexts and raw source documents companies. 
+This folder contains a small, anonymized subset of the full FinTradeBench dataset. It is provided strictly to allow reviewers to quickly verify the reproducibility of the code and execute a test run of the Retrieval-Augmented Generation (RAG) pipeline without downloading the full multi-gigabyte corpus.
 
 The complete dataset (1400 questions) and full corpus will be made anonymously available until review under NEURIPS and will be made open-source upon paper acceptance.
 
@@ -101,6 +99,6 @@ raw OHLCV and filing data.
 ===============================================================
 CONTACT
 ===============================================================
+fintradebench@gmail.com
 
-[Omitted for anonymous review. Contact information will be
-provided upon acceptance.]
+*Note: For the full dataset required to reproduce the paper's exact evaluation metrics, please refer to the anonymous dataset link provided in the main README.*
