@@ -13,7 +13,7 @@ FinTradeBench_Dataset_Sample/
 ├── subset_100_questions.csv               <- The core benchmark sample (100 Q&A pairs)
 │
 ├── Precomputed_Contexts/                  <- Data for the "Ideal RAG" Case Studies
-│   ├── AAPL_context.csv
+│   ├── AAPL-daily_with_fundamentals.csv
 │   └── ... 
 │
 └── Raw_RAG_Documents/                     <- Raw corpus for "Standard RAG" Evaluation
