@@ -2,6 +2,8 @@
 
 This anonymized repository contains the complete, end-to-end Python codebase required to reproduce **FinTradeBench**, execute the Retrieval-Augmented Generation (RAG) pipeline on heterogeneous signals, and run the LLM-as-a-Judge evaluations detailed in the paper.
 
+**🔗 [Access the Full Anonymous Dataset Here]((https://dataverse.harvard.edu/previewurl.xhtml?token=7424f412-d56d-4a3e-9469-907c243444fb))**
+
 In compliance with NeurIPS double-blind review policies, the repository is hosted via an anonymized link, and all local paths, institutional identifiers, and specific API keys have been removed.
 
 In compliance with double-blind review policies, all local paths, institutional identifiers, and API keys have been removed. 
@@ -67,4 +69,3 @@ These scripts grade the RAG outputs and generate the paper's quantitative figure
 10. **`generate_paper_tables_and_plots.py`**: Aggregates the final evaluation CSVs, computes paired t-test significance, and outputs the LaTeX table snippets and PDF plots (Grouped Bar Charts & Relative Deltas) utilized in the Results section of the manuscript.
 
 
-The full anonymous dataset can be accessed using the link: https://dataverse.harvard.edu/previewurl.xhtml?token=7424f412-d56d-4a3e-9469-907c243444fb
